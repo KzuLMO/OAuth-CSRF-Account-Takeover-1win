@@ -229,3 +229,9 @@ The SPA automatically sent `POST /api/web/v1/auth/vk` — **no user interaction 
 - [OAuth 2.0 — State Parameter (RFC 6749 §10.12)](https://datatracker.ietf.org/doc/html/rfc6749#section-10.12)
 - [PKCE for OAuth Public Clients (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636)
 - [OWASP — Cross-Site Request Forgery](https://owasp.org/www-community/attacks/csrf)
+
+---
+![Screenshot 3 — Proof why im sad ](./screenshot4_duplicate_notification.png)
+
+Two days after submitting the full PoC, the 1win security team closed the report as a duplicate of report #3328634 — titled "Critical OAuth Flow Flaw: One-Click Session Hijack and Account Fund Compromise" — which had already been triaged.
+This confirms the vulnerability was real and valid. Another researcher got there a few days earlier — that's bug bounty. The analysis, methodology, and depth of this report stand on their own.
