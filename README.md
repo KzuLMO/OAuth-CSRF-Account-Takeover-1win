@@ -106,8 +106,7 @@ The endpoint generates a fresh OAuth linking `state` without any anti-CSRF token
 ## Proof of Concept
 
 ### Screenshot 1 — API Comparison: Login vs Social Auth
-
-![Screenshot 1 — API comparison](./screenshots/screenshot1_curl_comparison.png)
+![Screenshot 1 — API comparison](./screenshot1_curl_comparison.png)
 
 Shows:
 - `POST /auth/login` → **403** `captcha.required` — blocked as expected
@@ -118,7 +117,7 @@ Shows:
 
 ### Screenshot 2 — All 7 Providers: No CAPTCHA + Configuration Proof
 
-![Screenshot 2 — All 7 providers](./screenshots/screenshot2_all_providers_no_captcha.png)
+![Screenshot 2 — All 7 providers](./screenshot2_all_providers_no_captcha.png)
 
 Shows:
 - Loop over all 7 providers — all return 400/500 with no captcha challenge
@@ -127,7 +126,7 @@ Shows:
 
 ### Screenshot 3 — Puppeteer Network Capture: Auto-Trigger
 
-![Screenshot 3 — Puppeteer auto-trigger](./screenshots/screenshot3_puppeteer_autotrigger.png)
+![Screenshot 3 — Puppeteer auto-trigger](./screenshot3_puppeteer_autotrigger.png)
 
 Puppeteer navigated to:
 ```
