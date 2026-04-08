@@ -2,6 +2,7 @@
 
 > **Status:** Vulnerability reported and fixed. Published for educational purposes only.  
 > All testing was conducted on accounts owned by the researcher. A placeholder code was used in the Puppeteer PoC to avoid making unauthorized changes to any account.
+
 ![Screenshot 0 — 1win Logo](./logo_1win.png)
 ---
 
